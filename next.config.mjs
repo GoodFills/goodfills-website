@@ -11,7 +11,7 @@ const nextConfig = {
       { source: '/product', destination: '/shop', permanent: true },
       { source: '/order', destination: '/checkout', permanent: true },
       { source: '/about', destination: '/our-story', permanent: true },
-      { source: '/track', destination: '/track-order', permanent: true },
+      { source: '/track', destination: '/order/track', permanent: true },
       { source: '/contact', destination: '/contact-us', permanent: true },
       { source: '/privacy', destination: '/privacy-policy', permanent: true },
       { source: '/terms', destination: '/terms-of-service', permanent: true },
